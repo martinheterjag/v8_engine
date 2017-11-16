@@ -18458,7 +18458,6 @@ Source:  Data sheet</description>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10u"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10u"/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="20k"/>
-<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="20k"/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="100k"/>
 <part name="POWER" library="eurorack" deviceset="POWER_SIMPLE" device="10"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -18575,7 +18574,6 @@ Source:  Data sheet</description>
 <instance part="C13" gate="G$1" x="-53.34" y="139.7"/>
 <instance part="C14" gate="G$1" x="-53.34" y="129.54"/>
 <instance part="R34" gate="G$1" x="27.94" y="101.6"/>
-<instance part="R35" gate="G$1" x="149.86" y="-7.62"/>
 <instance part="R36" gate="G$1" x="58.42" y="-45.72" rot="R180"/>
 <instance part="POWER" gate="G$1" x="-78.74" y="134.62"/>
 <instance part="P+1" gate="1" x="-45.72" y="149.86"/>
