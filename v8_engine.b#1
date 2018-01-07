@@ -20,7 +20,7 @@
 <layer number="24" name="bOrigins" color="62" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="30" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="30" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -3083,20 +3083,26 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.145" y="5.207" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="17.78" y="7.204" size="0.0254" layer="27"/>
 </element>
-<element name="GNDB" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND" x="33.02" y="5.969" smashed="yes">
-<attribute name="NAME" x="32.385" y="4.572" size="1.27" layer="25" ratio="10" rot="R270"/>
+<element name="GND_" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND" x="33.02" y="5.969" smashed="yes">
+<attribute name="NAME" x="32.385" y="5.588" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="33.02" y="6.569" size="0.0254" layer="27"/>
 </element>
-<element name="GNDC" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND" x="33.02" y="82.169" smashed="yes">
-<attribute name="NAME" x="33.02" y="80.772" size="1.27" layer="25" ratio="10" rot="R270"/>
+<element name="GND__" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND" x="33.02" y="82.169" smashed="yes">
+<attribute name="NAME" x="32.385" y="82.677" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="33.02" y="82.769" size="0.0254" layer="27"/>
 </element>
 <element name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/10" package3d_urn="urn:adsk.eagle:package:25939/1" value="1.5M" x="46.609" y="46.99" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.101" y="41.402" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="47.244" y="44.7294" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/10" package3d_urn="urn:adsk.eagle:package:25939/1" value="1.5M" x="35.179" y="46.99" rot="R90"/>
-<element name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/10" package3d_urn="urn:adsk.eagle:package:25939/1" value="1.5M" x="32.639" y="46.99" rot="R270"/>
+<element name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/10" package3d_urn="urn:adsk.eagle:package:25939/1" value="1.5M" x="35.179" y="46.99" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.068" y="54.61" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="35.814" y="44.7294" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/10" package3d_urn="urn:adsk.eagle:package:25939/1" value="1.5M" x="32.639" y="46.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="30.353" y="48.133" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="32.004" y="49.2506" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" package="RTRIM3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="100k" x="38.481" y="58.42" smashed="yes">
 <attribute name="NAME" x="37.236" y="53.1" size="1.27" layer="25"/>
 <attribute name="VALUE" x="36.601" y="55.355" size="1.27" layer="27"/>
@@ -3156,8 +3162,8 @@ design rules under a new name.</description>
 <contactref element="R16" pad="2"/>
 <contactref element="R30" pad="2"/>
 <contactref element="GND" pad="1"/>
-<contactref element="GNDB" pad="1"/>
-<contactref element="GNDC" pad="1"/>
+<contactref element="GND_" pad="1"/>
+<contactref element="GND__" pad="1"/>
 <contactref element="R9" pad="1"/>
 <contactref element="R22" pad="2"/>
 <contactref element="R23" pad="1"/>
@@ -3599,13 +3605,13 @@ design rules under a new name.</description>
 <wire x1="10.519209375" y1="3.175" x2="10.33960625" y2="3.24939375" width="0.254" layer="1" curve="-44.999502"/>
 <wire x1="10.33960625" y1="3.24939375" x2="3.81" y2="9.779" width="0.254" layer="1"/>
 <contactref element="D4" pad="C"/>
-<wire x1="0.635" y1="12.7" x2="3.81" y2="9.779" width="0" layer="19" extent="1-16"/>
 <wire x1="10.16" y1="81.661" x2="9.144" y2="80.645" width="0.2" layer="1"/>
 <wire x1="9.144" y1="80.645" x2="8.255" y2="80.645" width="0.2" layer="1"/>
 <wire x1="8.255" y1="80.645" x2="6.985" y2="80.645" width="0.2" layer="1"/>
 <wire x1="6.985" y1="80.645" x2="1.905" y2="75.565" width="0.2" layer="1"/>
-<wire x1="1.905" y1="75.565" x2="1.116" y2="74.776" width="0.2" layer="1"/>
-<wire x1="1.116" y1="74.776" x2="1.116" y2="12.7" width="0.2" layer="1"/>
+<wire x1="1.116" y1="74.776" x2="1.905" y2="75.565" width="0.2" layer="1"/>
+<wire x1="3.81" y1="9.779" x2="1.116" y2="12.473" width="0.2" layer="1"/>
+<wire x1="1.116" y1="12.473" x2="1.116" y2="74.776" width="0.2" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="R9" pad="2"/>
@@ -4124,6 +4130,17 @@ design rules under a new name.</description>
 <wire x1="19.05" y1="52.07" x2="19.05" y2="53.34" width="0.2" layer="1"/>
 <wire x1="19.05" y1="53.34" x2="17.2466" y2="55.1434" width="0.2" layer="1"/>
 <wire x1="17.2466" y1="55.1434" x2="15.9766" y2="55.1434" width="0.2" layer="1"/>
+</signal>
+<signal name="N$9">
+<polygon width="0.2" layer="16">
+<vertex x="0" y="86.995"/>
+<vertex x="58.42" y="86.995"/>
+<vertex x="58.42" y="0.635"/>
+<vertex x="57.785" y="0"/>
+<vertex x="-0.635" y="0"/>
+<vertex x="-0.635" y="83.185"/>
+<vertex x="-1.27" y="83.82"/>
+</polygon>
 </signal>
 </signals>
 </board>
