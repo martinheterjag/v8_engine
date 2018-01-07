@@ -18465,20 +18465,20 @@ Source:  Data sheet</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="AUTO/MAN"/>
-<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="AUTO/MAN"/>
-<part name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="CV"/>
-<part name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="OUTR"/>
-<part name="PAD5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="OUTL"/>
-<part name="PAD6" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="CLKI"/>
-<part name="PAD7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="POT1"/>
-<part name="PAD8" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="POT2"/>
-<part name="PAD9" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="CLKO"/>
-<part name="PAD10" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="POT1"/>
-<part name="PAD11" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="POT2"/>
-<part name="PAD12" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND"/>
-<part name="PAD13" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND"/>
-<part name="PAD14" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND"/>
+<part name="AUTO/MAN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="AUTO/MAN"/>
+<part name="AUTO/MANB" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="AUTO/MANB"/>
+<part name="CV" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="CV"/>
+<part name="OUTR" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="OUTR"/>
+<part name="OUTL" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="OUTL"/>
+<part name="CLKI" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="CLKI"/>
+<part name="POT1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="POT1"/>
+<part name="POT2B" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="POT2B"/>
+<part name="CLKO" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="CLKO"/>
+<part name="POT1B" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="POT1B"/>
+<part name="POT2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="POT2"/>
+<part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND"/>
+<part name="GND_" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND"/>
+<part name="GND__" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="GND"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -18498,7 +18498,7 @@ Source:  Data sheet</description>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PAD15" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="12V"/>
+<part name="12V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1" value="12V"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:25939/1" value="2.2M"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -18590,20 +18590,20 @@ Source:  Data sheet</description>
 <instance part="GND4" gate="1" x="27.94" y="78.74"/>
 <instance part="GND5" gate="1" x="119.38" y="91.44"/>
 <instance part="GND6" gate="1" x="182.88" y="119.38"/>
-<instance part="PAD1" gate="1" x="99.06" y="124.46" rot="R180"/>
-<instance part="PAD2" gate="1" x="99.06" y="114.3" rot="R180"/>
-<instance part="PAD3" gate="1" x="-15.24" y="121.92"/>
-<instance part="PAD4" gate="1" x="119.38" y="-91.44" rot="R180"/>
-<instance part="PAD5" gate="1" x="119.38" y="-30.48" rot="R180"/>
-<instance part="PAD6" gate="1" x="-20.32" y="60.96"/>
-<instance part="PAD7" gate="1" x="78.74" y="-76.2" rot="R180"/>
-<instance part="PAD8" gate="1" x="86.36" y="-12.7"/>
-<instance part="PAD9" gate="1" x="193.04" y="106.68" rot="R180"/>
-<instance part="PAD10" gate="1" x="83.82" y="-76.2"/>
-<instance part="PAD11" gate="1" x="81.28" y="-12.7" rot="R180"/>
-<instance part="PAD12" gate="1" x="-66.04" y="114.3" rot="R180"/>
-<instance part="PAD13" gate="1" x="-66.04" y="104.14" rot="R180"/>
-<instance part="PAD14" gate="1" x="-66.04" y="93.98" rot="R180"/>
+<instance part="AUTO/MAN" gate="1" x="99.06" y="124.46" rot="R180"/>
+<instance part="AUTO/MANB" gate="1" x="99.06" y="114.3" rot="R180"/>
+<instance part="CV" gate="1" x="-15.24" y="121.92"/>
+<instance part="OUTR" gate="1" x="119.38" y="-91.44" rot="R180"/>
+<instance part="OUTL" gate="1" x="119.38" y="-30.48" rot="R180"/>
+<instance part="CLKI" gate="1" x="-20.32" y="60.96"/>
+<instance part="POT1" gate="1" x="78.74" y="-76.2" rot="R180"/>
+<instance part="POT2B" gate="1" x="86.36" y="-12.7"/>
+<instance part="CLKO" gate="1" x="193.04" y="106.68" rot="R180"/>
+<instance part="POT1B" gate="1" x="83.82" y="-76.2"/>
+<instance part="POT2" gate="1" x="81.28" y="-12.7" rot="R180"/>
+<instance part="GND" gate="1" x="-66.04" y="114.3" rot="R180"/>
+<instance part="GND_" gate="1" x="-66.04" y="104.14" rot="R180"/>
+<instance part="GND__" gate="1" x="-66.04" y="93.98" rot="R180"/>
 <instance part="GND7" gate="1" x="2.54" y="30.48"/>
 <instance part="P+2" gate="1" x="17.78" y="48.26"/>
 <instance part="GND8" gate="1" x="-2.54" y="30.48"/>
@@ -18623,7 +18623,7 @@ Source:  Data sheet</description>
 <instance part="GND18" gate="1" x="58.42" y="-134.62"/>
 <instance part="P+3" gate="1" x="-20.32" y="149.86"/>
 <instance part="GND19" gate="1" x="-20.32" y="129.54"/>
-<instance part="PAD15" gate="1" x="7.62" y="157.48" rot="R180"/>
+<instance part="12V" gate="1" x="7.62" y="157.48" rot="R180"/>
 <instance part="GND20" gate="1" x="76.2" y="-101.6"/>
 <instance part="R35" gate="G$1" x="38.1" y="-127"/>
 <instance part="IC4" gate="P" x="17.78" y="124.46"/>
@@ -18686,13 +18686,13 @@ Source:  Data sheet</description>
 <segment>
 <wire x1="-73.66" y1="114.3" x2="-73.66" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="PAD12" gate="1" pin="P"/>
+<pinref part="GND" gate="1" pin="P"/>
 <wire x1="-73.66" y1="104.14" x2="-73.66" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="93.98" x2="-73.66" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="114.3" x2="-68.58" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="PAD13" gate="1" pin="P"/>
+<pinref part="GND_" gate="1" pin="P"/>
 <wire x1="-68.58" y1="104.14" x2="-73.66" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="PAD14" gate="1" pin="P"/>
+<pinref part="GND__" gate="1" pin="P"/>
 <wire x1="-68.58" y1="93.98" x2="-73.66" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-73.66" y="93.98"/>
 <junction x="-73.66" y="104.14"/>
@@ -18901,7 +18901,7 @@ Source:  Data sheet</description>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 <junction x="91.44" y="114.3"/>
-<pinref part="PAD2" gate="1" pin="P"/>
+<pinref part="AUTO/MANB" gate="1" pin="P"/>
 <wire x1="96.52" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18944,7 +18944,7 @@ Source:  Data sheet</description>
 <segment>
 <wire x1="-12.7" y1="121.92" x2="-5.08" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="PAD3" gate="1" pin="P"/>
+<pinref part="CV" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -18998,13 +18998,13 @@ Source:  Data sheet</description>
 <net name="CLKO" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="PAD9" gate="1" pin="P"/>
+<pinref part="CLKO" gate="1" pin="P"/>
 <wire x1="190.5" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="PAD6" gate="1" pin="P"/>
+<pinref part="CLKI" gate="1" pin="P"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="-17.78" y1="60.96" x2="-12.7" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -19028,12 +19028,13 @@ Source:  Data sheet</description>
 </net>
 <net name="N$21" class="0">
 <segment>
-<wire x1="33.02" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="58.42" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
 <junction x="35.56" y="58.42"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="A" pin="CLK"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="35.56" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -19220,7 +19221,7 @@ Source:  Data sheet</description>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="-27.94" x2="76.2" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="PAD11" gate="1" pin="P"/>
+<pinref part="POT2" gate="1" pin="P"/>
 <wire x1="76.2" y1="-12.7" x2="78.74" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="B" pin="-IN"/>
 <wire x1="76.2" y1="-27.94" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
@@ -19239,7 +19240,7 @@ Source:  Data sheet</description>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="PAD8" gate="1" pin="P"/>
+<pinref part="POT2B" gate="1" pin="P"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="-12.7" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
@@ -19247,7 +19248,7 @@ Source:  Data sheet</description>
 <net name="N$35" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="PAD5" gate="1" pin="P"/>
+<pinref part="OUTL" gate="1" pin="P"/>
 <wire x1="111.76" y1="-30.48" x2="116.84" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19307,7 +19308,7 @@ Source:  Data sheet</description>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="PAD15" gate="1" pin="P"/>
+<pinref part="12V" gate="1" pin="P"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="157.48" x2="0" y2="157.48" width="0.1524" layer="91"/>
 </segment>
@@ -19335,7 +19336,7 @@ Source:  Data sheet</description>
 <pinref part="IC6" gate="B" pin="-IN"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="-88.9" x2="73.66" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="PAD7" gate="1" pin="P"/>
+<pinref part="POT1" gate="1" pin="P"/>
 <wire x1="76.2" y1="-76.2" x2="73.66" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-76.2" x2="73.66" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="73.66" y="-88.9"/>
@@ -19344,7 +19345,7 @@ Source:  Data sheet</description>
 <net name="N$45" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="PAD10" gate="1" pin="P"/>
+<pinref part="POT1B" gate="1" pin="P"/>
 <wire x1="86.36" y1="-76.2" x2="91.44" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19361,7 +19362,7 @@ Source:  Data sheet</description>
 <net name="N$44" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="PAD4" gate="1" pin="P"/>
+<pinref part="OUTR" gate="1" pin="P"/>
 <wire x1="111.76" y1="-91.44" x2="116.84" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19396,7 +19397,7 @@ Source:  Data sheet</description>
 <junction x="119.38" y="124.46"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="83.82" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="PAD1" gate="1" pin="P"/>
+<pinref part="AUTO/MAN" gate="1" pin="P"/>
 <wire x1="10.16" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="A" pin="VCOIN"/>
 <pinref part="IC1" gate="E" pin="I"/>
@@ -19414,6 +19415,23 @@ Source:  Data sheet</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,-48.26,0,IC1F,O,,,,"/>
+<approved hash="104,1,17.78,132.08,IC4P,V+,+12V,,,"/>
+<approved hash="104,1,17.78,116.84,IC4P,V-,-12V,,,"/>
+<approved hash="104,1,48.26,15.24,IC5P,V+,+12V,,,"/>
+<approved hash="104,1,48.26,0,IC5P,V-,-12V,,,"/>
+<approved hash="104,1,45.72,-60.96,IC6P,V+,+12V,,,"/>
+<approved hash="104,1,45.72,-76.2,IC6P,V-,-12V,,,"/>
+<approved hash="202,1,139.7,132.08,IC7,ZEN,,,,"/>
+<approved hash="104,1,162.56,96.52,IC7P,VSS,GND,,,"/>
+<approved hash="104,1,147.32,96.52,IC7P,VDD,+12V,,,"/>
+<approved hash="104,1,66.04,40.64,IC2P,VSS,GND,,,"/>
+<approved hash="104,1,50.8,40.64,IC2P,VDD,+12V,,,"/>
+<approved hash="202,1,-68.58,0,IC1F,I,,,,"/>
+<approved hash="104,1,45.72,106.68,IC1P,VSS,-12V,,,"/>
+<approved hash="104,1,45.72,121.92,IC1P,VDD,+12V,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
